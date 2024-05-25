@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poetsen+One&display=swap');
+
+.footer{
+    margin: 50px 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_top_left h3{
+    font-family: "Kalam", cursive;
+    font-size: 38px;
+}
+
+.footer_top_left p{
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.footer_top_right{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.footer_email_input{
+    display: flex;
+    gap: 30px;
+    padding: 15px 25px;
+    border-radius: 50px;
+    background: #32323b;
+    padding-right: 80px;
+}
+
+.footer_email_input .user_icon{
+    font-size: 25px;
+}
+
+.footer_email_input input{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #a0a0a0;
+    font-family: Outfit;
+    font-size: 18px;
+}
+
+.footer_email_input:hover{
+    border: 2px solid white;
+}
+
+.footer_subscribe{
+    font-size: 20px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer_subscribe:hover{
+    transform: scale(1.14);
+    transition: 0.5s;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.footer_bottom_right{
+    display: flex;
+    gap: 35px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .footer_top{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_top_left p {
+        font-size: 17px;
+        max-width: 100%;
+    }
+
+    .footer_top_right{
+        gap: 20px;
+    }
+
+    .footer_email_input{
+        padding-right: 0;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .footer_email_input .user_icon {
+        font-size: 20px;
+    }
+
+    .footer_subscribe {
+        font-size: 17px;
+        padding: 15px 44px;
+    }
+
+    .footer_bottom {
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+
+    .footer_bottom_right {
+        gap: 5px;
+
+    }
+}
