@@ -76,7 +76,7 @@
     margin-top: 20px;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
     .services{
         margin: 80px; 
     }
@@ -92,7 +92,7 @@
     .service_format h2{
         font-size: 32px;
     }
-}
+} */
 
 @media (max-width: 768px) {
     .services{
@@ -137,7 +137,7 @@
     }
 }
 
-@media (min-width: 414px) {
+/* @media (min-width: 414px) {
     .services {
         margin: 50px 30px;
     }
@@ -153,4 +153,4 @@
     .services_container{
         grid-template-columns: 1fr;
     }
-}
+} */

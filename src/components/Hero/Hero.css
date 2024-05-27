@@ -68,11 +68,11 @@
     border-color: #b415ff;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
     .hero h1 {
         font-size: 70px;
     }
-}
+} */
 
 
 @media (max-width: 768px) {
@@ -113,7 +113,7 @@
     }
 }
 
-@media (min-width: 414px) {
+/* @media (min-width: 414px) {
     .hero_action{
         flex-direction: column;
     }
@@ -122,4 +122,4 @@
         margin-top: 10px;
         font-size: 32px;
     }
-}
+} */

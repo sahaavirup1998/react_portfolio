@@ -131,7 +131,7 @@
     transition: 0.4s;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
     .contact{
         margin: 80px;
     }
@@ -159,7 +159,7 @@
     .form_fields textarea{
         padding: 0;
     }
-}
+} */
 
 @media (max-width: 768px) {
     .contact{
@@ -227,7 +227,7 @@
     }
 }
 
-@media (min-width: 414px) {
+/* @media (min-width: 414px) {
 
     .contact {
         margin: 50px 30px;
@@ -268,4 +268,4 @@
     .form_fields input{
         width: 106%;
     }
-}
+} */

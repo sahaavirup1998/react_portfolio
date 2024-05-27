@@ -92,11 +92,11 @@
     font-weight: 500;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
     .skill{
         margin: 80px;
     }
-}
+} */
 
 @media (max-width: 768px) {
     .skill{
@@ -147,7 +147,7 @@
     }
 }
 
-@media (min-width: 414px) {
+/* @media (min-width: 414px) {
     .skill {
         margin: 50px 30px;
     }
@@ -159,4 +159,4 @@
     .skill_title img {
         width: 80px;
     }
-}
+} */

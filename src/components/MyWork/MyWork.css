@@ -81,11 +81,11 @@
     border: 2px solid #ff00ff;
 }
 
-@media (min-width: 1024px){
+/* @media (min-width: 1024px){
     .mywork{
         margin: 80px;
     }
-}
+} */
 
 @media (max-width: 768px) {
     .mywork{
@@ -121,7 +121,7 @@
     }
 }
 
-@media (min-width: 414px) {
+/* @media (min-width: 414px) {
     .mywork {
         margin: 50px 30px;
     }
@@ -133,4 +133,4 @@
     .mywork_title img {
         width: 80px;
     }
-}
+} */

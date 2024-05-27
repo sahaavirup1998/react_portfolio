@@ -80,7 +80,7 @@
     gap: 35px;
 }
 
-@media (min-width: 1024px){
+/* @media (min-width: 1024px){
     .footer{
         margin: 50px 80px;
     }
@@ -98,7 +98,7 @@
     .footer_bottom{
         font-size: 16px;
     }
-}
+} */
 
 @media (max-width: 768px) {
     .footer_top{
@@ -141,7 +141,7 @@
     }
 }
 
-@media (min-width: 414px) {
+/* @media (min-width: 414px) {
     .footer{
         margin: 50px 30px;
     }
@@ -159,4 +159,4 @@
         flex-direction: column;
         gap: 10px;
     }
-}
+} */

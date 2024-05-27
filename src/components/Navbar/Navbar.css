@@ -60,7 +60,7 @@
     display: none;
 }
 
-@media(min-width: 1024px){
+/* @media(min-width: 1024px){
 
     .navbar{
         margin: 20px 60px;
@@ -74,7 +74,7 @@
         padding: 10px 25px;
         font-size: 18px;
     }
-}
+} */
 
 @media(max-width: 768px){
     .navbar{
@@ -120,9 +120,9 @@
     }
 }
 
-@media (min-width: 414px) {
+/* @media (min-width: 414px) {
     .nav_mob_open{
         width: 20px;
         right: 8px;
     }
-}
+} */
