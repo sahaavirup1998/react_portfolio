@@ -76,6 +76,24 @@
     margin-top: 20px;
 }
 
+@media (min-width: 1024px) {
+    .services{
+        margin: 80px; 
+    }
+
+    .services_container{
+        gap: 25px;
+    }
+
+    .service_format{
+        padding: 30px;
+    }
+
+    .service_format h2{
+        font-size: 32px;
+    }
+}
+
 @media (max-width: 768px) {
     .services{
        gap: 80px;
@@ -116,5 +134,23 @@
 
     .services_readmore img{
         width: 20px;
+    }
+}
+
+@media (min-width: 414px) {
+    .services {
+        margin: 50px 30px;
+    }
+
+    .services_title h1 {
+        font-size: 32px;
+    }
+
+    .services_title img {
+        width: 80px;
+    }
+
+    .services_container{
+        grid-template-columns: 1fr;
     }
 }

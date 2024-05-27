@@ -81,6 +81,12 @@
     border: 2px solid #ff00ff;
 }
 
+@media (min-width: 1024px){
+    .mywork{
+        margin: 80px;
+    }
+}
+
 @media (max-width: 768px) {
     .mywork{
        gap: 80px;
@@ -112,5 +118,19 @@
 
     .mywork_format_body ul li{
         font-size: 15px;
+    }
+}
+
+@media (min-width: 414px) {
+    .mywork {
+        margin: 50px 30px;
+    }
+
+    .mywork_title h1 {
+        font-size: 32px;
+    }
+
+    .mywork_title img {
+        width: 80px;
     }
 }

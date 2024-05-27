@@ -60,6 +60,22 @@
     display: none;
 }
 
+@media(min-width: 1024px){
+
+    .navbar{
+        margin: 20px 60px;
+    }
+
+    .nav_menu{
+        gap: 40px;
+    }
+
+    .nav_connect {
+        padding: 10px 25px;
+        font-size: 18px;
+    }
+}
+
 @media(max-width: 768px){
     .navbar{
         margin: 20px 50px;
@@ -101,5 +117,12 @@
         font-size: 30px;
         padding-left: 100px;
         flex-direction: row;
+    }
+}
+
+@media (min-width: 414px) {
+    .nav_mob_open{
+        width: 20px;
+        right: 8px;
     }
 }

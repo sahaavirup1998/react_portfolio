@@ -92,6 +92,12 @@
     font-weight: 500;
 }
 
+@media (min-width: 1024px) {
+    .skill{
+        margin: 80px;
+    }
+}
+
 @media (max-width: 768px) {
     .skill{
         gap: 80px;
@@ -138,5 +144,19 @@
     .achivements p{
         text-align: center;
         font-size: 18px;
+    }
+}
+
+@media (min-width: 414px) {
+    .skill {
+        margin: 50px 30px;
+    }
+
+    .skill_title h1 {
+        font-size: 32px;
+    }
+
+    .skill_title img {
+        width: 80px;
     }
 }
